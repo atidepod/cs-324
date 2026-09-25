@@ -1,0 +1,40 @@
+Level 0:
+bandit0
+BANDIT_LEVEL=1 ./level1
+
+Level 1:
+6/Q2LbNWe5a4KTk8ymUVrKuQ2J8B+/2+
+./level2 2> /dev/null
+
+Level 2:
+4utUC/pa/7fK5zU0Q3qPKPbmicmozKSc
+echo "CS 324" | ./level3
+
+Level 3:
+ikOSSKloFzB9xlu4V7Bn0osqSaXOvR9H
+./level4 2>&1 | cut -c 6-37
+
+Level 4:
+TIyOTczZjk2MDBiMmI3NjA4Y2I3Yjk5M
+grep eget level5.txt | awk '{print $2}'
+
+Level 5:
+WvmlqTFW+sn+TgJD9nEifb2cFNaDYaL3
+sort -r level6.txt | tail -n 1 | base64 -d
+
+Level 6:
+eAyRe5KDtiqxDoeqVCABnj6hBMhCR/Bd
+gzip -dc level7.tar.gz 2>&1 | tar -xO 2>&1 | tr 'F' 'L'
+
+Level 7:
+Jp1NL6O/H7uPUesDQ7r1TPLH2oGlTyHn
+curl -s https://imaal.byu.edu/cs324/bandit.txt | sha1sum | cut -c 1-32
+
+Level 8:
+fb7cf39e8e0becdcd0468863cdc653e6
+./level9
+
+Level 9:
+WWvs5PXxiY81gLjw60+mBccj6bGACwdU
+sort level10.txt | uniq -c | sort -n | tail -n 1 | awk '{print $2}'
+
