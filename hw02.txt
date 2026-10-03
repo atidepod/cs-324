@@ -1,0 +1,27 @@
+[er29784@alaska ~]$ ssh bandit0@imaal.byu.edu
+bandit0@imaal.byu.edu's password:
+Linux imaal 6.12.85+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.85-1 (2026-04-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Sep 11 16:52:09 2026 from 10.52.0.68
+bandit0@imaal:~$ BANDIT_LEVEL=1 ./level1
+6/Q2LbNWe5a4KTk8ymUVrKuQ2J8B+/2+
+bandit0@imaal:~$ exit
+logout
+Connection to imaal.byu.edu closed.
+[er29784@alaska ~]$ ssh bandit1@imaal.byu.edu
+bandit1@imaal.byu.edu's password:
+Linux imaal 6.12.85+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.85-1 (2026-04-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Sep 11 16:50:31 2026 from 10.52.0.72
